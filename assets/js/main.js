@@ -30,11 +30,11 @@ listcontent.addEventListener("click", function (e) {
 });
 
 function savedata() {
-    localStorage.setItem("data",listcontent.innerHTML);
+    localStorage.setItem("Data",listcontent.innerHTML);
     console.log()
 }
 function showdata() {
-    listcontent.innerHTML = localStorage.getItem("data");
+    listcontent.innerHTML = localStorage.getItem("Data");
 
 }
 showdata()
