@@ -102,7 +102,7 @@ button{
     color: rgba(152, 145, 145, 0.817);
 }
 #list-content li.checked::before{
-background-image: url("/assets/images/tick.jpg");
+background-image: url("assets/images/tick.jpg");
 background-size: cover;
 background-position: center;
 border: none;
