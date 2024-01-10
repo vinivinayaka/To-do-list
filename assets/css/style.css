@@ -125,7 +125,7 @@ height: 23px;
     }
 
     .row {
-        padding: 10px;
+        padding: 1px;
     }
 
     input {
@@ -149,8 +149,5 @@ height: 23px;
         height: 12px;
     }
 
-    #list-content li.checked::before {
-        width: 14px;
-        height: 14px;
-    }
+   
 }
